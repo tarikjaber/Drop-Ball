@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8684C7D74779CA69C514DD19 /* Pods_Drop_Ball_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B53FA5CDF5081794C1A2333 /* Pods_Drop_Ball_.framework */; };
 		CF1A47F923C298ED006C2651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A47F823C298ED006C2651 /* AppDelegate.swift */; };
 		CF1A47FB23C298ED006C2651 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF1A47FA23C298ED006C2651 /* GameScene.sks */; };
 		CF1A47FD23C298ED006C2651 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF1A47FC23C298ED006C2651 /* Actions.sks */; };
@@ -19,9 +20,17 @@
 		CF1A481D23C2AA1A006C2651 /* Failure.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF1A481C23C2AA1A006C2651 /* Failure.wav */; };
 		CF1A481F23C2AA3C006C2651 /* PPH2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF1A481E23C2AA3C006C2651 /* PPH2.wav */; };
 		CF1A482123C2AA53006C2651 /* Ping Pong Hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF1A482023C2AA53006C2651 /* Ping Pong Hit.wav */; };
+		CF1A482323C2DD6D006C2651 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF1A482223C2DD6D006C2651 /* GoogleService-Info.plist */; };
+		CF1A483123C2EEC4006C2651 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1A482B23C2E712006C2651 /* GoogleUtilities.framework */; };
+		CF1A483323C2EED4006C2651 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1A482E23C2E734006C2651 /* nanopb.framework */; };
+		CF1A483523C2EEEA006C2651 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1A482823C2E6FD006C2651 /* GoogleMobileAds.framework */; };
+		CF1A483723C2EEF6006C2651 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1A482423C2E6E8006C2651 /* GoogleAppMeasurement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B53FA5CDF5081794C1A2333 /* Pods_Drop_Ball_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drop_Ball_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE7958B074B24BFAFF6451C /* Pods-Drop Ball!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drop Ball!.debug.xcconfig"; path = "Target Support Files/Pods-Drop Ball!/Pods-Drop Ball!.debug.xcconfig"; sourceTree = "<group>"; };
+		B005787FA20E5627C62E2925 /* Pods-Drop Ball!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drop Ball!.release.xcconfig"; path = "Target Support Files/Pods-Drop Ball!/Pods-Drop Ball!.release.xcconfig"; sourceTree = "<group>"; };
 		CF1A47F523C298ED006C2651 /* Drop Ball!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop Ball!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1A47F823C298ED006C2651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF1A47FA23C298ED006C2651 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		CF1A481C23C2AA1A006C2651 /* Failure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Failure.wav; path = ../../../Sounds/Failure.wav; sourceTree = "<group>"; };
 		CF1A481E23C2AA3C006C2651 /* PPH2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = PPH2.wav; path = ../../../Sounds/PPH2.wav; sourceTree = "<group>"; };
 		CF1A482023C2AA53006C2651 /* Ping Pong Hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Ping Pong Hit.wav"; path = "../../../Sounds/Ping Pong Hit.wav"; sourceTree = "<group>"; };
+		CF1A482223C2DD6D006C2651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF1A482423C2E6E8006C2651 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../Framworks/GoogleMobileAdsSdkiOS-7.53.1/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		CF1A482823C2E6FD006C2651 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../Framworks/GoogleMobileAdsSdkiOS-7.53.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		CF1A482B23C2E712006C2651 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../Framworks/GoogleMobileAdsSdkiOS-7.53.1/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		CF1A482E23C2E734006C2651 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../Framworks/GoogleMobileAdsSdkiOS-7.53.1/nanopb.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +57,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1A483323C2EED4006C2651 /* nanopb.framework in Frameworks */,
+				CF1A483123C2EEC4006C2651 /* GoogleUtilities.framework in Frameworks */,
+				CF1A483723C2EEF6006C2651 /* GoogleAppMeasurement.framework in Frameworks */,
+				CF1A483523C2EEEA006C2651 /* GoogleMobileAds.framework in Frameworks */,
+				8684C7D74779CA69C514DD19 /* Pods_Drop_Ball_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4F8ECC4BD15E71FA887CAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A482E23C2E734006C2651 /* nanopb.framework */,
+				CF1A482B23C2E712006C2651 /* GoogleUtilities.framework */,
+				CF1A482823C2E6FD006C2651 /* GoogleMobileAds.framework */,
+				CF1A482423C2E6E8006C2651 /* GoogleAppMeasurement.framework */,
+				3B53FA5CDF5081794C1A2333 /* Pods_Drop_Ball_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4268AEBB0D4FCAF2ACBD4048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7958B074B24BFAFF6451C /* Pods-Drop Ball!.debug.xcconfig */,
+				B005787FA20E5627C62E2925 /* Pods-Drop Ball!.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF1A47EC23C298ED006C2651 = {
 			isa = PBXGroup;
 			children = (
 				CF1A47F723C298ED006C2651 /* Drop Ball! */,
 				CF1A47F623C298ED006C2651 /* Products */,
+				4268AEBB0D4FCAF2ACBD4048 /* Pods */,
+				0E4F8ECC4BD15E71FA887CAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +119,7 @@
 				CF1A480A23C298EF006C2651 /* Info.plist */,
 				CF1A47FE23C298ED006C2651 /* GameScene.swift */,
 				CF1A480023C298ED006C2651 /* GameViewController.swift */,
+				CF1A482223C2DD6D006C2651 /* GoogleService-Info.plist */,
 				CF1A481123C2A030006C2651 /* Sounds */,
 			);
 			path = "Drop Ball!";
@@ -100,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF1A480D23C298EF006C2651 /* Build configuration list for PBXNativeTarget "Drop Ball!" */;
 			buildPhases = (
+				F6D126356F20E4B9E0211D65 /* [CP] Check Pods Manifest.lock */,
 				CF1A47F123C298ED006C2651 /* Sources */,
 				CF1A47F223C298ED006C2651 /* Frameworks */,
 				CF1A47F323C298ED006C2651 /* Resources */,
+				A16CEE774F7EAC561CA64112 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,12 +203,55 @@
 				CF1A480923C298EF006C2651 /* LaunchScreen.storyboard in Resources */,
 				CF1A47FD23C298ED006C2651 /* Actions.sks in Resources */,
 				CF1A481F23C2AA3C006C2651 /* PPH2.wav in Resources */,
+				CF1A482323C2DD6D006C2651 /* GoogleService-Info.plist in Resources */,
 				CF1A481B23C2AA15006C2651 /* Success6.wav in Resources */,
 				CF1A482123C2AA53006C2651 /* Ping Pong Hit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A16CEE774F7EAC561CA64112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drop Ball!/Pods-Drop Ball!-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Drop Ball!/Pods-Drop Ball!-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Drop Ball!/Pods-Drop Ball!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D126356F20E4B9E0211D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drop Ball!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF1A47F123C298ED006C2651 /* Sources */ = {
@@ -252,6 +340,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -305,6 +394,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -314,6 +404,7 @@
 		};
 		CF1A480E23C298EF006C2651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE7958B074B24BFAFF6451C /* Pods-Drop Ball!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomicsnoball.dropball;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicsnowball.dropball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +423,7 @@
 		};
 		CF1A480F23C298EF006C2651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B005787FA20E5627C62E2925 /* Pods-Drop Ball!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -341,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.atomicsnoball.dropball;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomicsnowball.dropball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

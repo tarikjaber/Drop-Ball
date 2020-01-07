@@ -5,6 +5,7 @@ import AVFoundation
 
 var score = 0
 var bestScore = 0
+var timesFailed = -9
 
 struct PC {
     static var ramp: UInt32 = 0b1000000// 3
@@ -405,6 +406,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 UserDefaults.standard.set(bestScore, forKey: "bestScore")
             }
             
+            timesFailed += 1
             playSound(fileName: "Failure")
             score = 0
             ballGravity = -9.81
